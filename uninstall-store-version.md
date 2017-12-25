@@ -16,17 +16,15 @@ Open command prompt.
 #### Step2 case Ubuntu
 
 ```
-powershell
-Get-AppxPackage -Name *Ubuntu*
+powershell Get-AppxPackage -Name *Ubuntu*
 ```
 
 Output 
 
-#### Step2 ase openSUSE Leap or SUSE Linux
+#### Step2 case openSUSE Leap or SUSE Linux
 
 ```
-powershell
-Get-AppxPackage -Name *SUSE*
+powershell Get-AppxPackage -Name *SUSE*
 ```
 
 #### Step3
@@ -34,6 +32,5 @@ Get-AppxPackage -Name *SUSE*
 **If linux installed with the Step2 command is displayed**, delete it with the following command.
 
 ```
-powershell
-{Step2 command} | Remove-AppxPackage
+powershell {Step2 command} | Remove-AppxPackage
 ```
